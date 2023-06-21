@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Invoice Billing System
+  profiles:
+    active: @spring.profiles.active@
+
+custom:
+  application:
+    name: Invoice Billing System
+    version: 1.0
